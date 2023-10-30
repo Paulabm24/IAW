@@ -15,4 +15,4 @@ apt install mariadb-server
 #ini_set('display_startup_errors', 1);
 #error_reporting(E_ALL);
 #Por ultimo entramos en el navegador con la ip publica y accedemos a la carpeta descomprimida(en src) y nos aparece la aplicacion ya instalada
-[images](aplicacion.jpg)
+![images](aplicacion.png)
