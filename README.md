@@ -1,4 +1,4 @@
-# IAW-practica0
+# IAW
 # Pila Lamp
 - [Scripts de Implantacion de aplicaciones web](apache.sh)
   - Despliegue de la instalación de la aplicación web propuesta.
