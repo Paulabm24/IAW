@@ -22,4 +22,4 @@ goaccess /var/log/apache2/access.log
 mkdir /var/www/html/stats
 chmod 777 /var/www/html/stats
 goaccess /var/log/apache2/access.log -o /var/www/html/stats/index.html --log-format=COMBINED --real-time-html
-![images](IAW-practica0/unamed.png)
+![images](IAW-practica0/unnamed.png)
