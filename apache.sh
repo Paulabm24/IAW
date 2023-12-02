@@ -15,11 +15,11 @@ apt install mariadb-server
 #ini_set('display_startup_errors', 1);
 #error_reporting(E_ALL);
 #Por ultimo entramos en el navegador con la ip publica y accedemos a la carpeta descomprimida(en src) y nos aparece la aplicacion ya instalada
-![images](IAW-practica0/aplicacion.png)
+
 apt install goaccesss
 goaccess /var/log/apache2/access.log 
 #(Queremos tener la informacion anterior en formato html), 
 mkdir /var/www/html/stats
 chmod 777 /var/www/html/stats
 goaccess /var/log/apache2/access.log -o /var/www/html/stats/index.html --log-format=COMBINED --real-time-html
-![images](IAW-practica0/unnamed.png)
+
