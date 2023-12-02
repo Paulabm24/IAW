@@ -1,9 +1,13 @@
 #!/bin/bash
 apt update
-apt upgrade
 apt install apache2
+systemctl status apache2
+cd /var/www/html
+ls
 apt install phpmyadmin
+systemctl status phpmyadmin
 apt install mariadb-server
+systemctl status mariadb-server
 #accedemos con la ip publica a phpmyadmin en el navegador
 #https://github.com/josejuansanchez/iaw-practica-lamp/tree/master, nos descargamos el github completo y lo colocamos en la maquina de AWS en el directorio /var/www/html y descomprimimos la carpta en ese directorio
 #entramos en mariadb y ejecutamos el scripts que aparece en la carpeta que hemos descomprimido(db) y desde /var/www/html modificamos dos archivos (config.php e index.php)
