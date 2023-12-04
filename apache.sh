@@ -4,6 +4,7 @@ apt install apache2
 systemctl status apache2
 cd /var/www/html
 ls
+apt install php
 apt install phpmyadmin
 systemctl status phpmyadmin
 apt install mariadb-server
