@@ -20,10 +20,5 @@ systemctl status mariadb-server
 #error_reporting(E_ALL);
 #Por ultimo entramos en el navegador con la ip publica y accedemos a la carpeta descomprimida(en src) y nos aparece la aplicacion ya instalada
 
-apt install goaccesss
-goaccess /var/log/apache2/access.log 
-#(Queremos tener la informacion anterior en formato html), 
-mkdir /var/www/html/stats
-chmod 777 /var/www/html/stats
-goaccess /var/log/apache2/access.log -o /var/www/html/stats/index.html --log-format=COMBINED --real-time-html
+
 
