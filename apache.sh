@@ -1,10 +1,6 @@
 #!/bin/bash
 apt update
-apt install apache2 -y 
-apt install mariadb-server -y
-apt install php -y 
-apt install phpmyadmin -y
-
-
-
-
+apt install -y apache2 
+apt install -y mariadb-server
+apt-get install -y php libapache2-mod-php php-mysql
+apt-get install -y git
